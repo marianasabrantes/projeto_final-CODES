@@ -1,0 +1,15 @@
+html{
+	position: 100%;
+}
+.contem {
+	flex-direction: column;
+}
+
+.categorias1{
+	order: 1;
+}
+
+.barra-final{
+	position: fixed;
+	bottom: 0;
+}
