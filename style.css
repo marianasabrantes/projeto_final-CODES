@@ -5,11 +5,51 @@ html{
 	flex-direction: column;
 }
 
-.categorias1{
-	order: 1;
+.categorias1 {
+	text-align: center;
+}
+
+.titulo {
+	text-align: center;
+}
+
+.comentarios {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.elemento_barra {
+	width: 28%;
+	text-align: center;
 }
 
 .barra-final{
 	position: fixed;
 	bottom: 0;
+	width: 100%;
+}
+
+.elementos{
+	position: flex;
+	width: 300px;
+	height: 50px;
+	margin-top: 5px; 
+    margin-right: 12.5%;
+    margin-bottom: 5px;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+.palavras{
+	height: 31px;
+	margin-top: 2px; 
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
+.boxsons {
+	height: 300px;
+	margin-top: 3px; 
+	margin-right: 5px;
+    margin-left: 5px;
 }

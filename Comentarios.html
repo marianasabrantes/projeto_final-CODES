@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Informação</title>
+		<title>Comentarios</title>
 		<meta charset="utf-8">
 		<meta name='viewport' content="width=device-width,initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link href = 'reset.css' rel='stylesheet'>
+		<link href = 'style.css' rel='stylesheet'>
 	</head>
 	<body class="contem">
 		<div class="pos-f-t">
@@ -23,58 +23,65 @@
 		  </nav>
 		</div>
 
-		<div class="barra-final">	
-			<a href= "Informacao.html" type="button" class="btn btn-primary" >Informação</a>
-			<a href= "Videos.html" type="button" class="btn btn-secondary">Vídeos</a>
-			<a href= "Comentarios.html" type="button" class="btn btn-success">Comentários</a>
-			<a href= "Sugestoes.html" type="button" class="btn btn-danger">Sugestões</a>
+		<div class="barra-final btn-group" role="group" aria-label="Basic example">		
+			<a href= "Informacao.html" type="button" class="btn btn-secondary elemento_barra" >Informação</a>
+			<a href= "Videos.html" type="button" class="btn btn-secondary elemento_barra">Vídeos</a>
+			<a href= "Comentarios.html" type="button" class="btn btn-secondary elemento_barra">Comentários</a>
+			<a href= "Sugestoes.html" type="button" class="btn btn-secondary elemento_barra">Sugestões</a>
 		</div>
 
-		<div class="palavras">
-			<title>
-				Comentários
-			</title>
-			<ul class="top10">
-				Top 10 palavras x Aparições
-				<li>
-					Amo - 5890 
-				</li>
-				<li>
-					Odeio - 5198 
-				</li>
-				<li>
-					Adoro - 4500
-				</li>
-				<li>
-					Babaca - 3876 
-				</li>
-				<li>
-					Interessante - 3000 
-				</li>
-				<li>
-					Mágica - 2500
-				</li>
-				<li>
-					Deus - 2000
-				</li>
-				<li>
-					Boneca - 1986 
-				</li>
-				<li>
-					Mané - 1500
-				</li>
-				<li>
-					Maravilhoso - 784 
-				</li>
-			</ul>
+		<h4 class="titulo">
+			Top 10 palavras x Aparições
+		</h4>
 
-		</div>
-		<div class="comentarios">
+		<ul class="list-group">
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Amo
+    			<span class="badge badge-primary badge-pill">5890</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Odeio 
+    			<span class="badge badge-primary badge-pill">5198</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Adoro
+    			<span class="badge badge-primary badge-pill">4500</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Babaca
+    			<span class="badge badge-primary badge-pill">3876</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Interessante 
+    			<span class="badge badge-primary badge-pill">3000</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Mágica 
+    			<span class="badge badge-primary badge-pill">2500</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Deus 
+    			<span class="badge badge-primary badge-pill">2000</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Boneca 
+    			<span class="badge badge-primary badge-pill">1986</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Mané 
+    			<span class="badge badge-primary badge-pill">1500</span>
+  			</li>
+  			<li class="list-group-item d-flex justify-content-between align-items-center palavras">
+    			Maravilhoso 
+    			<span class="badge badge-primary badge-pill">784</span>
+  			</li>
+		</ul>
+		<h6 class="comentarios">
 			Comentários positivos - 23491
-		</div>
-		<div class="comentarios">
+		</h6>
+		<h6 class="comentarios">
 			Comentários negativos - 32491
-		</div>
+		</h6>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
