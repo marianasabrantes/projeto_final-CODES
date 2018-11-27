@@ -16,7 +16,7 @@
 		    </div>
 		  </div>
 		  <nav class="navbar navbar-dark bg-dark">
-		  	<a class="navbar-brand" href="#">Logo</a>
+		  	<a class="navbar-brand" href="#">MakeEasy</a>
 		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
